@@ -1,17 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 body {
-  height: 100vh;
+  /* height: 100vh; */
+  
   display: flex;
   align-items: center;
   justify-content: center;
   font-family: 'Inter', sans-serif;
+  min-height: 100vh;
 }
 
 .todo_container {
+  margin-top: 30px;
+  margin-bottom: 30px;
   width: 729px;
   height: fit-content;
-  background: rgba(197, 197, 194, 0.42);
+  background: rgba(166, 166, 156, 0.42);
 
   display: flex;
   flex-direction: column;

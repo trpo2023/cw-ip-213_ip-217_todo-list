@@ -1,4 +1,6 @@
 /* eslint-disable no-use-before-define */
+import close from '../images/close.png';
+
 const activeTodo = [];
 const completedTodo = [];
 const btnAdd = document.querySelector('.todo_task-container_add-wrap-btn');
@@ -43,7 +45,7 @@ const taskItemComponent = (task, side) => {
             </div>
             <p>${task.title}</p>
             <div class="todo_task-container_list-wrap-element-close-btn">
-                <img src="./assets/images/close.png">
+              <img src=${close} alt="close" >
             </div>
         `;
 
